@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Hero from "./Hero.jsx";
-import Footer from "./Footer.jsx";
+import Hero from "./pages/Hero.jsx";
+import Footer from "./pages/Footer.jsx";
 
 const App = () => {
   return (
