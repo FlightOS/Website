@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fos</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #55CDFC, #FF6BAC, #FFDAB9);
+        background-size: 200% 200%;
+        animation: gradient 10s ease infinite;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .main-image {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+      }
+
+      .small-image {
+        height: 75px;
+        margin: 0 20px;
+      }
+
+      .title {
+        font-size: 4rem;
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="Main Image" class="main-image">
+      <h1 class="title">FlightOS</h1>
+      <div>
+        <img src="github.png" alt="Small Image 1" class="small-image">
+        <img src="discord.png" alt="Small Image 2" class="small-image">
+      </div>
+    </div>
+  </body>
+</html>
