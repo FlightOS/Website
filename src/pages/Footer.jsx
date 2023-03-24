@@ -6,8 +6,9 @@ const Footer = () => {
   return (
    <footer className="footer" style={{ color: "white", fontFamily: "Arial" }}>
       <div className="footer-section">
+        <h1>FlightOS</h1>
         <h3>Credits</h3>
-        <p>Site Designers: Rifriot#8325, Majikun Yuko#7624</p>
+        <p>Web Developer: Rifriot#8325</p>
         <p>Developer Team: Majikun Yuko#7624, Riftriot#8325, Scarlett Yuko#0001, Sharp_Jack#4374, nitelite#0443</p>
       </div>
       <div className="footer-section beta-testers">
